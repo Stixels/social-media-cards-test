@@ -42,10 +42,18 @@ class App extends Component {
       <div className="App">
         <Helmet className="App-header">
           <meta name="twitter:card" content="summary" />
-          <meta name="twitter:title" content="Box card test" />
+          <meta name="twitter:site" content="@flickr" />
+          <meta
+            name="twitter:title"
+            content="Small Island Developing States Photo Submission"
+          />
           <meta
             name="twitter:description"
-            content="Quick test for twitter cards"
+            content="View the album on Flickr."
+          />
+          <meta
+            name="twitter:image"
+            content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg"
           />
 
           <img src={logo} className="App-logo" alt="logo" />
