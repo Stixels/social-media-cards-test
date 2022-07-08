@@ -41,26 +41,20 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <meta name="twitter:card" content="summary" />
-          <meta name="twitter:site" content="@flickr" />
-          <meta
-            name="twitter:title"
-            content="Small Island Developing States Photo Submission"
-          />
-          <meta
-            name="twitter:description"
-            content="View the album on Flickr."
-          />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:site" content="@nytimes" />
+          <meta name="twitter:creator" content="@SarahMaslinNir" />
+          <meta name="twitter:title" content="Cards test" />
+          <meta name="twitter:description" content="Quick media card test" />
           <meta
             name="twitter:image"
-            content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg"
+            content="http://graphics8.nytimes.com/images/2012/02/19/us/19whitney-span/19whitney-span-articleLarge.jpg"
           />
 
           <img src={logo} className="App-logo" alt="logo" />
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-          <LambdaDemo />
         </header>
       </div>
     );
