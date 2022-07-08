@@ -4,7 +4,7 @@ import { Helmet } from "react-helmet";
 class Head extends Component {
   render() {
     return (
-      <div className="application">
+      <div className="Head">
         <Helmet>
           <meta name="twitter:card" content="summary" />
           <meta
