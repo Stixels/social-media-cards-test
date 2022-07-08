@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-// import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet";
 import logo from "./logo.svg";
 import "./App.css";
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
+        <Helmet className="App-header">
           <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:site" content="@nytimes" />
           <meta name="twitter:creator" content="@SarahMaslinNir" />
@@ -21,7 +21,7 @@ class App extends Component {
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
-        </header>
+        </Helmet>
       </div>
     );
   }
