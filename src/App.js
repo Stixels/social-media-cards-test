@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Helmet } from "react-helmet";
 import logo from "./logo.svg";
 import "./App.css";
-import { Header } from "box-ui-elements";
 
 class LambdaDemo extends Component {
   constructor(props) {
@@ -41,7 +40,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header className="App-header">
+        <header className="App-header">
           <meta name="twitter:card" content="summary" />
           <meta name="twitter:site" content="@flickr" />
           <meta
@@ -62,7 +61,7 @@ class App extends Component {
             Edit <code>src/App.js</code> and save to reload.
           </p>
           <LambdaDemo />
-        </Header>
+        </header>
       </div>
     );
   }
