@@ -9,14 +9,9 @@ class App extends Component {
       <div className="App">
         <Helmet>
           <meta name="twitter:card" content="summary" />
-          <meta
-            name="twitter:title"
-            content="Small Island Developing States Photo Submission"
-          />
-          <meta
-            name="twitter:description"
-            content="View the album on Flickr."
-          />
+          <meta name="twitter:site" content="@Box" />
+          <meta name="twitter:title" content="Social Media Card test" />
+          <meta name="twitter:description" content="Quick card test" />
           <meta
             name="twitter:image"
             content="https://farm6.staticflickr.com/5510/14338202952_93595258ff_z.jpg"
